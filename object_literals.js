@@ -9,5 +9,4 @@ const person={
         state:'maharashtra'
     }
 }
-
-alert(person);
+console.log(person.firstName);
