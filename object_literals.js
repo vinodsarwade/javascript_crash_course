@@ -11,7 +11,7 @@ const person={
 }
 console.log(person.firstName, person.lastName, person.age);
 console.log(person.hobbies[1]);
-console.log(person.address.city);  
+console.log(person.address.city,person.address.street);  
 
 
 const{firstName,lastName,address:{city}}=person;
@@ -20,4 +20,4 @@ console.log(city);
 
 
 person.email='vinod@12'
-console.log(person);
+console.log(person.email);
