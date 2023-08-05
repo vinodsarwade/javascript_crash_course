@@ -6,7 +6,7 @@ const todos =[{
 {
     id:2,
     text:"what is the time",
-    isCompleted:true
+    isCompleted:false
 
 },
 {
