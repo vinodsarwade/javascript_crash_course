@@ -5,17 +5,24 @@ todos.forEach(function(todo){
 });
 
 
-//map
+//map ..
 
-const todoText = todos.map(function(todo){
+/*The map() method is powerful and commonly used in JavaScript
+for data manipulation, transforming arrays of data, 
+ and generating new arrays based on existing ones. 
+ It is especially useful when you need to apply the same operation to each element in an array 
+ and create a modified version of the original array*/
+
+
+const newArray = todos.map(function(todo){
     return todo.text;
 });
 
-console.log(todoText);
+console.log(newArray);
 
-//filter
+//filter....this method is used to filtering the array.
 
 const p1 = todos.filter(function(todo){
-    return todos.id > 2 ;   // will filter the todos array which has id is > 2.
+    return todo.id > 1 ;   // will filter the todos array which has id is > 1.
 })
 console.log(p1);
